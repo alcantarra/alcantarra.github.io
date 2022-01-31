@@ -1,12 +1,43 @@
-
 body {
-      background-color: turquoise;
-      }
+    padding: 3%;
+    background-color: lightblue;
+}
 
-h2 {
+#minha-foto {
+    float: left;
+    height: 280px;
+    padding: 4px;
+    background-color: goldenrod;
+}
+
+#mendanha {
+    height: 350px;
+    margin-top: 50px;
+}
+
+.lista {
+    list-style-type: upper-roman;
+}
+
+.meuNome {
     font-family: sans-serif;
-    }
+    text-align: center;
+}
 
-#font-desc {
-    font-family: fantasy;
-            }
+.image-container {
+    height: 300px;
+    position: relative;
+}
+
+.descricao {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 120px;
+}
+
+ul li:nth-child(odd) {
+    background-color: indianred;
+}
